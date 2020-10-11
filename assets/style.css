@@ -77,3 +77,7 @@ h1 {
     color: white;
     border-color: #70002A;
 }
+
+.btn-outline-primary:focus {
+    box-shadow: none;
+}
