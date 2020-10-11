@@ -3,11 +3,13 @@ html {
     width: 100%;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    overflow-x: hidden;
 
 }
 
 body { 
     background-color: #f5f5f5;
+    padding-top: 6rem;
 }
 
 h1 { 
@@ -80,4 +82,13 @@ h1 {
 
 .btn-outline-primary:focus {
     box-shadow: none;
+}
+
+.btn__toggle {
+    vertical-align: text-bottom;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #c5c5c5;
 }
